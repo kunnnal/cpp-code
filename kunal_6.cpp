@@ -5,7 +5,7 @@ int main()
     char ch;
     cout << "Enter M or F:";
     cin>>ch;
-    switch(toupper(ch)) {
+    switch(toupper(cb)) {
         case 'M':
         cout<<"Male";
         break;
